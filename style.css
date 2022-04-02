@@ -1,9 +1,9 @@
 body {
     height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     background-image: url('./svg.svg');
 }
 
@@ -26,6 +26,7 @@ ul {
     padding: 14px 16px;
     font-size: 20px;
     text-decoration: none;
+    padding-right: 50px;
   }
   
   li a:hover {
