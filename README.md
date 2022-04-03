@@ -7,4 +7,8 @@ Currently under development ;)
 
 **Main Page**: `Done`
 
-**Projects Page**: `Not Done`
+**Projects Page**: `Done`
+
+**About Page**: `Done`
+
+**Contact Page**: `Not Done`
