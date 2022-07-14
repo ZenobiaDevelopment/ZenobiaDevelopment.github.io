@@ -5,35 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/projects.css" />
-    <title>Zenobia Development</title>
+    <title>Zenobia Development | Projects</title>
   </head>
   <body>
-    <ul>
-      <h3 class="title">Zenobia Development</h3>
-      <li style="float: right"><a href="">Projects</a></li>
-      <li style="float: right"><a href="/about">About</a></li>
-      <li style="float: right"><a href="/">Home</a></li>
-    </ul>
-
-    <div class="welcome">
-      <h4>Welcome to our projects page!</h4>
-      <p>It is gonna be our pleasure to introduce our recent projects.</p>
+    <div class="nav">
+      <img src="../img/zenobia2.png" alt="zenobia development logo" />
+      <ul class="nav-ul">
+        <li><a href="/">Home</a></li>
+        <li><a href="./projects">Projects</a></li>
+        <li>
+          <a href="https://discord.com/invite/NZ7Q5qWrsS" target="_blank"
+            >Discord</a
+          >
+        </li>
+      </ul>
     </div>
 
-    <div class="helerius">
-      <section>
-        <a href="https://npmjs.com/helerius">Helerius</a>
-      </section>
-    </div>
+    <h4 class="project-header gradient-clipped">Proud projects made with ❤️</h4>
 
-    <div class="testament">
-      <section>
-        <a href="https://npmjs.com/testament-cli">TestamentCLI</a>
-      </section>
-    </div>
+    <div class="project-grid"></div>
 
-    <footer style="text-align: center; padding-top: 300px; color: white">
-      <small>&copy; Copyright 2022, Zenobia Development</small>
-    </footer>
+    <script src="../js/data.js"></script>
+    <script src="../js/appendProjects.js"></script>
+    <script src="../js/app.js"></script>
+    <footer>&copy; Copyright 2022, Zenobia Development</footer>
   </body>
 </html>
