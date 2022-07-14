@@ -2,13 +2,12 @@
 
 Currently under development ;)
 
-
 # To-Do List
 
-**Main Page**: `Done`
+**Home Page**: `Done`
 
-**Projects Page**: `Done`
+**Project Showcase**: `Done`
 
-**About Page**: `Done`
+**About Section**: `Done`
 
-**Contact Page**: `Not Done`
+**Contact Page**: `Coming soon`
