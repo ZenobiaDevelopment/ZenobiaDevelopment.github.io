@@ -1,0 +1,49 @@
+:root {
+  --dark: #000;
+  --light: rgb(233, 233, 233);
+  --blue-tint: #2ec1f8;
+  --g-background-b: rgb(212, 239, 226);
+  --g-background: linear-gradient(
+    90deg,
+    rgba(212, 239, 226, 1) 0%,
+    rgba(209, 189, 248, 1) 35%,
+    rgba(46, 193, 248, 1) 100%
+  );
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+* a {
+  text-decoration: none;
+}
+
+body {
+  width: 85%;
+  margin: 0 auto;
+  min-height: 82vh;
+  background-color: var(--dark);
+  background-size: cover;
+}
+
+.gradient-clipped {
+  font-weight: 800;
+  background: var(--g-background-b);
+  background: var(--g-background);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer {
+  position: absolute;
+  bottom: 1em;
+  left: 50%;
+  font-size: 0.8em;
+  transform: translateX(-50%);
+}
