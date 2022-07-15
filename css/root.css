@@ -39,7 +39,7 @@ body {
   transition: 300ms ease-in-out;
   background: var(--g-background-b);
   background: var(--g-background);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -49,4 +49,13 @@ footer {
   left: 50%;
   font-size: 0.8em;
   transform: translateX(-50%);
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    width: 100vw;
+  }
+  footer {
+    display: none;
+  }
 }

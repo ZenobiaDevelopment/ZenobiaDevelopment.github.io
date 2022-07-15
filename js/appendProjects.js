@@ -5,7 +5,7 @@ projects.forEach((project) => {
   html = `
         <a class='project-child' href='${project.url}'
           <div>
-            <h4 class='gradient-clipped'>${project.name}</h4>
+            <h4 class='gradient-clipped'>${project.id} - ${project.name}</h4>
             <p>${project.about}</p>
           </div>
         </a>

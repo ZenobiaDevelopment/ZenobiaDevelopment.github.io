@@ -10,3 +10,16 @@
   margin: 0.5em 0;
   font-size: 6em;
 }
+
+@media screen and (max-width: 500px) {
+  .welcome {
+    margin: 0;
+    width: 100%;
+  }
+  .main-header {
+    font-size: 4em;
+  }
+  .welcome p {
+    padding: 0 2em;
+  }
+}
